@@ -1,3 +1,35 @@
 body {
-  background-color: yellow;
+  padding-top: 1%;
+  background-color: rgb(209, 225, 249);
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 40px;
+}
+
+img {
+
+  text-align: center;
+  max-width: none;
+  max-height: none;
+}
+
+ul li {
+  font-size: 2em;
+  padding: 0 40px;
+  text-transform: none;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
 }
