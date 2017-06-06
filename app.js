@@ -1,4 +1,4 @@
-use strict;
+"use strict";
 //Do they want to play?
 var askQuestion = confirm("Hello, I'm Gavin. Want to play a guessing game?");
 if (askQuestion === true) {
