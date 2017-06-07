@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 //Do they want to play?
 var askQuestion = confirm("Hello, I'm Gavin. Want to play a guessing game?");
 if (askQuestion === true) {
@@ -11,13 +11,13 @@ if (askQuestion === true) {
     alert("Wrong guess!");
 
   }
-  var age = prompt("Good! Now you know my name is Gavin and I'm a boy. Do you think I am less than 20 years old?");
+  var age = prompt("Now you know my name is Gavin and I'm a boy. Do you think I am less than 20 years old?");
   if (age.toLowerCase() == "no") {
     alert("Wow, you're on top of it! I am older than 20.");
   } else {
-    alert("Whoops!");
+    alert("Whoops wrong!");
   }
-  var exactAge = prompt("Wow you're smart. Now that you know I'm older than 20. I want you to guess my exact age. It's a number between 23 and 25");
+  var exactAge = prompt("Now that you know I'm older than 20. I want you to guess my exact age. It's a number between 23 and 25");
   if (exactAge == 24) {
     alert("Man, you might as well go buy some lotto tickets, you're on fire!");
   } else {
@@ -29,7 +29,7 @@ if (askQuestion === true) {
   } else {
     alert("Error, you guessed wrong!");
   }
-  var currentCity = prompt("You know so much about me it's scary. Last question, what city do I live in? (Tacoma, Seattle, Sumner, or Bellevue)");
+  var currentCity = prompt("Last question, what city do I live in? (Tacoma, Seattle, Sumner, or Bellevue)");
   if (currentCity === "Tacoma") {
     alert("Wow you nailed it again! Now go buy me some lottery tickets!");
   } else {
