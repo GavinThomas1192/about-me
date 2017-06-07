@@ -1,4 +1,6 @@
-
+/** {
+  outline: 1px solid black;
+}*/
 
 body {
   background: red; /* For browsers that do not support gradients */
@@ -19,6 +21,12 @@ h1 {
 /*p {
   font-size: 40px;
 }*/
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+
 
 ul li {
   font-size: 2em;
