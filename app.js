@@ -30,7 +30,7 @@ if (askQuestion === true) {
     alert("Error, you guessed wrong!");
   }
   var currentCity = prompt("Last question, what city do I live in? (Tacoma, Seattle, Sumner, or Bellevue)");
-  if (currentCity === "Tacoma") {
+  if (currentCity.toLowerCase() === "tacoma") {
     alert("Wow you nailed it again! Now go buy me some lottery tickets!");
   } else {
     alert("Wrong");

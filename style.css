@@ -11,6 +11,7 @@ body {
 
 h1 {
   font-size: 65px;
+  font-family: Impact, Cursive, sans-serif;
 }
 
 p {
@@ -36,3 +37,6 @@ img {
   max-width: 30%;
   max-height: 30%;
 }
+ header {
+   font-style: italic;
+ }
