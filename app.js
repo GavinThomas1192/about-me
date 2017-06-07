@@ -17,7 +17,7 @@ if (askQuestion === true) {
   } else {
     alert('Whoops wrong!');
   }
-  var exactAge = prompt('Now that you know I'm older than 20. I want you to guess my exact age. It\'s a number between 23 and 25');
+  var exactAge = prompt('Now that you know I\'m older than 20. I want you to guess my exact age. It\'s a number between 23 and 25');
   if (exactAge == 24) {
     alert('Man, you might as well go buy some lotto tickets, you\'re on fire!');
   } else {
