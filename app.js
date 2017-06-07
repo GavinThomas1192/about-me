@@ -12,7 +12,7 @@ if (askQuestion === true) {
 
   }
   var age = prompt("Now you know my name is Gavin and I'm a boy. Do you think I am less than 20 years old?");
-  if (age.toLowerCase() == "no") {
+  if (age.toLowerCase() == "no" || age.toLowerCase() == "n") {
     alert("Wow, you're on top of it! I am older than 20.");
   } else {
     alert("Whoops wrong!");
