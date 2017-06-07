@@ -1,5 +1,11 @@
+
+
 body {
-  background-color: rgb(209, 225, 249);
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(33, 113, 242), rgb(232, 240, 255)); /* Standard syntax */
   text-align: center;
 }
 
@@ -22,10 +28,6 @@ ul li {
 ul li a {
   text-decoration: none;
   color: inherit;
-}
-
-footer {
-  background-color: pink;
 }
 
 img {
