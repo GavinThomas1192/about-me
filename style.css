@@ -13,10 +13,12 @@ h1 {
   font-size: 65px;
   font-family: Impact, Cursive, sans-serif;
 }
-
-p {
-  font-size: 40px;
+#firstPara {
+  font-size: 27px;
 }
+/*p {
+  font-size: 40px;
+}*/
 
 ul li {
   font-size: 2em;
@@ -38,5 +40,22 @@ img {
   max-height: 30%;
 }
  header {
+   font-style: italic;
+   font-weight: bold;
+ }
+
+ .accomplish {
+   font-family: fantasy, sans-serif, Impact;
+ }
+ #accomplsh {
+   font-size: 40px;
+   font-family: Impact, sans-serif, cursive;
+ }
+
+ #lastPara {
+   font-size: 25px;
+ }
+
+ footer ul {
    font-style: italic;
  }
