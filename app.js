@@ -57,7 +57,7 @@ if (askQuestion === true) {
       totalTries = 0;
       totalAnswerCorrect++;
     } else {
-      alert('Oh no! Guess again!');
+      alert('Oh no! Guess again! You only have ' + totalTries + ' guesses left.');
       totalTries--;
     }
   }
@@ -77,7 +77,7 @@ if (askQuestion === true) {
       }
     }
     if (isRight === false) {
-      alert('wrong');
+      alert('You guessed wrong! You have ' + questionSevenTries + ' guesses left.');
       questionSevenTries--;
     }
   }
