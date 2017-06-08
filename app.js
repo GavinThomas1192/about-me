@@ -71,7 +71,7 @@ if (askQuestion === true) {
     for (var i = 0; i < citiesLived.length; i++) {
       if (citiesLived[i] === whichCity.toLowerCase()) {
         alert('You guessed right!');
-        questionSevenTries = 0;
+        questionSevenTries = -1;
         isRight = true;
         totalAnswerCorrect++;
       }

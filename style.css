@@ -1,7 +1,7 @@
-/** {
+* {
   outline: 1px solid black;
   background-image: url("topography.png");
-}*/
+}
 
 html {
   background: url("img/footer_lodyas.png") no-repeat center center fixed;
@@ -10,6 +10,16 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+/*#accomplishments {
+  margin-left: 50%;
+  float: right;
+  background-color: rgba(0, 255, 255, 0.3);
+}*/
+
+/*#workExperience {
+
+}*/
 
 body {
   background: red;
@@ -26,6 +36,7 @@ body {
   background-image: url("img/wild_flowers.png");
   margin-right: 12em;
   margin-left: 12em;
+  max-width: 100em:
 }
 
 h1 {
