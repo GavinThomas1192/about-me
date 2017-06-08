@@ -6,22 +6,23 @@ var askQuestion = confirm('Hello, I\'m Gavin. Want to play a guessing game?');
 if (askQuestion === true) {
   alert('Great! I\'m Gavin here are some questions to guess!');
   //Question 1
+function gameQuestionOne (){
   var gender = prompt('Since you already know my name, do you think I am a boy or girl?');
   if (gender.toLowerCase() === 'boy') {
     alert('Great guess! I am a boy!');
     totalAnswerCorrect++;
   } else {
     alert('Wrong guess!');
-
-  }
+  }}
   //Question 2
+  function gameQuestionTwo(){}
   var age = prompt('Now you know my name is Gavin and I\'m a boy. Do you think I am less than 20 years old?');
   if (age.toLowerCase() === 'no' || age.toLowerCase() === 'n') {
     alert('Wow, you\'re on top of it! I am older than 20.');
     totalAnswerCorrect++;
   } else {
     alert('Whoops wrong!');
-  }
+  }}
   //Question 3
   var exactAge = prompt('Now that you know I\'m older than 20. I want you to guess my exact age. It\'s a number between 23 25.');
   if (exactAge === '24') {
