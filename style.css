@@ -24,8 +24,8 @@ body {
   /* Standard syntax */
   text-align: center;
   background-image: url("img/wild_flowers.png");
-  max-width: 65em;
-  margin-left: 10em;
+  margin-right: 12em;
+  margin-left: 12em;
 }
 
 h1 {
