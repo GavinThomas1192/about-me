@@ -86,7 +86,7 @@ if (askQuestion === true) {
   alert('Okay, play again soon!');
 }
 alert('Congratulations! You got ' + totalAnswerCorrect + ' questions correct!');
-
+console.log('The user got ' + totalAnswerCorrect + ' questions correct.');
 console.log('The user responded with ' + gender + ' when asked my gender');
 console.log('The user responded with ' + age + ' when asked if they thought I and less than 20 years old.');
 console.log('The user responded with ' + exactAge + ' when asked to pick a number between 23 & 25.');
