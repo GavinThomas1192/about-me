@@ -1,31 +1,52 @@
 /** {
   outline: 1px solid black;
+  background-image: url("topography.png");
 }*/
 
+html {
+  background: url("img/footer_lodyas.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(33, 113, 242), rgb(232, 240, 255)); /* Standard syntax */
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(33, 113, 242), rgb(232, 240, 255));
+  /* Standard syntax */
   text-align: center;
-  background: url("backgroundimage2.jpg");
+  background-image: url("img/wild_flowers.png");
+  max-width: 65em;
+  margin-left: 10em;
 }
 
 h1 {
   font-size: 65px;
   font-family: Impact, Cursive, sans-serif;
 }
+
 h2 {
   font-size: 30px;
   font-family: Impact, sans-serif, cursive;
 }
+
 #firstPara {
   font-size: 27px;
 }
+
+
 /*p {
   font-size: 40px;
 }*/
+
 ul li {
   font-size: 2em;
   padding: 0 40px;
@@ -46,32 +67,33 @@ img {
   max-width: 30%;
   max-height: 30%;
 }
- header {
-   font-style: italic;
-   font-weight: bold;
- }
 
- .accomplish {
-   max-width: 50%
-   text-align: right;
-   font-family: fantasy, sans-serif, Impact;
- }
- #accomplsh {
-   font-size: 30px;
-   font-family: Impact, sans-serif, cursive;
- }
+header {
+  font-style: italic;
+  font-weight: bold;
+}
 
- #lastPara {
-   font-size: 25px;
- }
+.accomplish {
+  text-align: center;
+  font-family: fantasy, sans-serif, Impact;
+}
 
- footer ul {
-   font-size: 10px;
-   font-style: italic;
- }
- #order {
+#accomplsh {
+  font-size: 30px;
+  font-family: Impact, sans-serif, cursive;
+}
 
-   text-align: center;
-   list-style-position: inside;
-   font-size: 25px;
- }
+#lastPara {
+  font-size: 25px;
+}
+
+footer ul {
+  font-size: 10px;
+  font-style: italic;
+}
+
+#order {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 25px;
+}
