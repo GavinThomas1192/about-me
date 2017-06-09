@@ -13,7 +13,7 @@ function gameQuestionOne() {
   }
 };
 gameQuestionOne();
-// //Question 2
+// Question 2
 function gameQuestionTwo() {
   var age = prompt('Now you know my name is Gavin and I\'m a boy. Do you think I am less than 20 years old?');
   if (age.toLowerCase() === 'no' || age.toLowerCase() === 'n') {

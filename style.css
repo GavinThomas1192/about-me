@@ -58,7 +58,7 @@ h2 {
 /*p {
   font-size: 40px;
 }*/
-
+/*This is for the accomplishments to date list's*/
 ul li {
   font-size: 2em;
   padding: 0 40px;
@@ -67,29 +67,33 @@ ul li {
   text-decoration: none;
 }
 
+/*This is for the Nav at the bottom*/
 ul li a {
   max-width: 50%;
   text-decoration: none;
   color: inherit;
+  font-size: 20px;
+  font-style: italic;
 }
-
+/*This is for my headshot*/
 img {
   border-radius: 100%;
   text-align: center;
   max-width: 30%;
   max-height: 30%;
 }
-
+/*Welcome message*/
 header {
   font-style: italic;
   font-weight: bold;
 }
-
+/*Header for accomplishment list*/
 .accomplish {
+  font-size: 25px;
   text-align: center;
   font-family: fantasy, sans-serif, Impact;
 }
-
+/*Actual accomplishment list*/
 #accomplsh {
   font-size: 30px;
   font-family: Impact, sans-serif, cursive;
@@ -99,161 +103,158 @@ header {
   font-size: 25px;
 }
 
-footer ul {
-  font-size: 10px;
-  font-style: italic;
-}
-
+/*This is the work experience list*/
 #order {
   text-align: center;
   list-style-position: inside;
   font-size: 25px;
+  font-family: fantasy, sans-serif, Impact;
 }
-
+/*This is the start to the images on sides*/
 #bear {
   transform: rotate(7deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
 }
 
 #bear1 {
-  transform: rotate(-7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 10%;
 }
 
 #bear2 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 20%;
 }
 
 #bear3 {
-  transform: rotate(-7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 30%;
 }
 
 #bear4 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 40%;
 }
 
 #bear5 {
-  transform: rotate(-7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 50%;
 }
 
 #bear6 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-top: 60%;
 }
 
 #bearRight {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
 
 }
 
 #bearRight1 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
   margin-top: 10%;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
 
 }
 
 #bearRight2 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
   margin-top: 20%;
 
 }
 
 #bearRight3 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
   margin-top: 30%;
 
 
 }
 
 #bearRight4 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
   margin-top: 40%;
 
 }
 
 #bearRight5 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
   margin-top: 50%;
 
 }
 
 #bearRight6 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
-  margin-left: 85%;
+  margin-left: 88%;
   margin-top: 60%;
 
 }
 
 #bearMiddle {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: fixed;
   margin-left: 50%;
   margin-top: 50%;
@@ -261,41 +262,42 @@ footer ul {
 }
 
 #bearMiddle1 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: absolute;
   margin-left: 17%;
   margin-top: 99%;
 }
 
 #bearMiddle2 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: absolute;
   margin-left: 37%;
   margin-top: 99%;
 }
 
 #bearMiddle3 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: absolute;
   margin-left: 55%;
   margin-top: 99%;
 }
 
 #bearMiddle4 {
-  transform: rotate(7deg);
+  transform: rotate(0deg);
   display: inline;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   position: absolute;
   margin-left: 75%;
   margin-top: 99%;
 }
+/*End Side images*/
