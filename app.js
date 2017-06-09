@@ -1,4 +1,5 @@
 'use strict';
+confirm('Hello! Would you like to play a guessing game?');
 //var for total answers correct
 var totalAnswerCorrect = 0;
 //Question 1

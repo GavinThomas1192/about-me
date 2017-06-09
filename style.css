@@ -1,7 +1,7 @@
-* {
+/** {
   outline: 1px solid black;
   background-image: url("topography.png");
-}
+}*/
 
 html {
   background: url("img/footer_lodyas.png") no-repeat center center fixed;
@@ -21,7 +21,11 @@ html {
 
 }*/
 
-body {
+#bodyContainer {
+
+  text-align: center;
+  margin: 0em 12em 12em 12em;
+  max-width: 100em;
   background: red;
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(red, yellow);
@@ -32,11 +36,8 @@ body {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgb(33, 113, 242), rgb(232, 240, 255));
   /* Standard syntax */
-  text-align: center;
+  /*text-align: center;*/
   background-image: url("img/wild_flowers.png");
-  margin-right: 12em;
-  margin-left: 12em;
-  max-width: 100em:
 }
 
 h1 {
@@ -107,4 +108,194 @@ footer ul {
   text-align: center;
   list-style-position: inside;
   font-size: 25px;
+}
+
+#bear {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+}
+
+#bear1 {
+  transform: rotate(-7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 10%;
+}
+
+#bear2 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 20%;
+}
+
+#bear3 {
+  transform: rotate(-7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 30%;
+}
+
+#bear4 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 40%;
+}
+
+#bear5 {
+  transform: rotate(-7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 50%;
+}
+
+#bear6 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-top: 60%;
+}
+
+#bearRight {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+
+}
+
+#bearRight1 {
+  transform: rotate(7deg);
+  display: inline;
+  margin-top: 10%;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+
+}
+
+#bearRight2 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 20%;
+
+}
+
+#bearRight3 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 30%;
+
+
+}
+
+#bearRight4 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 40%;
+
+}
+
+#bearRight5 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 50%;
+
+}
+
+#bearRight6 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 60%;
+
+}
+
+#bearMiddle {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 50%;
+
+}
+
+#bearMiddle1 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 99%;
+}
+
+#bearMiddle2 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 99%;
+}
+
+#bearMiddle3 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 99%;
+}
+
+#bearMiddle4 {
+  transform: rotate(7deg);
+  display: inline;
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 99%;
 }
