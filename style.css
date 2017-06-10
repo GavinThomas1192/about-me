@@ -11,16 +11,6 @@ html {
   background-size: cover;
 }
 
-/*#accomplishments {
-  margin-left: 50%;
-  float: right;
-  background-color: rgba(0, 255, 255, 0.3);
-}*/
-
-/*#workExperience {
-
-}*/
-
 #bodyContainer {
 
   text-align: center;
@@ -54,10 +44,6 @@ h2 {
   font-size: 27px;
 }
 
-
-/*p {
-  font-size: 40px;
-}*/
 /*This is for the accomplishments to date list's*/
 ul li {
   font-size: 2em;
@@ -100,7 +86,8 @@ header {
 }
 
 #lastPara {
-  font-size: 25px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /*This is the work experience list*/
