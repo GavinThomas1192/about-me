@@ -26,9 +26,9 @@ function gameQuestionTwo() {
 gameQuestionTwo();
 // // //Question 3
 function gameQuestionThree() {
-  var exactAge = prompt('Now that you know I\'m older than 20. I want you to guess my exact age. It\'s a number between 23 25.');
+  var exactAge = parseInt(prompt('Now that you know I\'m older than 20. I want you to guess my exact age. It\'s a number between 23 25.'));
   if (exactAge === 24) {
-    parseint(alert('Man, you might as well go buy some lotto tickets, you\'re on fire!'));
+    (alert('Man, you might as well go buy some lotto tickets, you\'re on fire!'));
     totalAnswerCorrect++;
   } else {
     alert('How in the world did you get that wrong?');
@@ -37,8 +37,8 @@ function gameQuestionThree() {
 gameQuestionThree();
 // //Question 4
 //
-console.log('hello');
-
+// console.log('hello');
+//
 function gameQuestionFour() {
   console.log('Bye');
   var myKids = parseInt(prompt('I\'m glad you are getting to know me. How many children do you think I have?'));
